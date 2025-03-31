@@ -65,7 +65,7 @@ Besonders in Gebieten, die von Gebirgen geprägt sind, kann ein Hillshade die Ka
 
 Für dieses Projekt kann ein vereinfachter Layer [hier](http://nc.dazzr.space/DTM_OOe.zip) heruntergeladen werden. **Achtung**: Diese Ressource ist zeitlich begrenzt verfügbar! 
 
-### 2.4 Exkurs: Projektionen
+### 2.5 Exkurs: Projektionen
 
 Da die ungefähr kugelförmige Oberfläche der Erde auf eine zweidimensionale Fläche projiziert werden muss, kommt es zu Verzerrungen. Stark vereinfacht ausgedrückt, fallen diese Verzerrungen umso geringer aus, je besser die gewählte Projektion sich mit dem dargestellten Kartenausschnitt überlagert. Für dieses Projekt bietet sich daher eine Projektion an, die zu Österreich passt. Sie wird über einen Doppelklick auf **Map** für die gesamte Karte festgelegt.
 
@@ -79,7 +79,7 @@ Eine vollständige Liste der in Österreich gängigen Projektionen findet sich [
 
 Die Kartenlayer, die nicht zur festgelegtne Projektion passen, werden im Hintergrund dynamisch reprojiziert. Es ist von Vorteil, die Layer mit **Project Layer** auf die gewählte Projektion zu transformieren.
 
-### 2.5 Exkurs: Hierarchie
+### 2.6 Exkurs: Hierarchie
 In der Kartengestaltung gibt es viele kreative Darstellungsmöglichkeiten. Dabei sollte die Lesbarkeit jedoch nicht vergessen werden! Daher muss die Darstellungsfolge der einzelnen Layer sinnvoll angepasst werden. Ein Grundsatz ist dabei folgende Reihenfolge:
 | Ebene | Geometrie |
 | - | - |
@@ -87,7 +87,7 @@ In der Kartengestaltung gibt es viele kreative Darstellungsmöglichkeiten. Dabei
 | 2 | Linien |
 | 3 | Flächen |
 
-### 2.6 Exkurs: Farbwahl
+### 2.7 Exkurs: Farbwahl
 Eine gute Farbwahl erleichtert ebenfalls die Lesbarkeit der Karte. Neben den mitgelieferten Presets von ArcGIS können bspw. zur Darstellung von Farbverläufen auch Tools wie der [Colorbrewer](https://colorbrewer2.org/) benutzt werden.
 Einige Farben gelten als *Standard* und sollten daher bevorzugt nur für die jeweilige Kategorie gewählt werden:
 ```
