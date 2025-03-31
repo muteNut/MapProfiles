@@ -1,10 +1,10 @@
-## Daten verknüpfen (Joins)
+## 4 Daten verknüpfen (Joins)
 
-### Add Join
+### 4.1 Add Join
 
-### Join Field
+### 4.2 Join Field
 
-### Spatial Join
+### 4.3 Spatial Join
 
 [Zurück](./README.md)
 
