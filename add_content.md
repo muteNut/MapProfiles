@@ -93,6 +93,14 @@ Einige Farben gelten als *Standard* und sollten daher bevorzugt nur für die jew
 ```
 bild von buch einfügen!
 ```
+
+### 2.8 Exkurs: Straßendarstellung
+Falls Straßen dargestellt werden sollen, sieht die Standardeinstellung nicht gerade sehr hübsch aus. Sinnvoller ist es, hier eine kategorisierte Darstellung zu wählen (*unique Values*), aber dann taucht das nächste Problem auf: die Straßen weisen eine Vielzahl an Segmenten auf!
+
+<img src="./img/streets.jpg" alt="Screenshot von Strassen inkl. Symbology" width=500>
+
+Dieses Problem wird gelöst, wenn man in *Symbol layer drawing* (farblich markiert) den Slider *Enable symbol layer drawing* aktiviert. Die Zeile *`<all other values>`* kann entfernt werden, falls Features, die keines der vergebenen Attribute aufweisen, nicht dargestellt werden sollen.
+
 [Zurück](./interface.md)
 
 **Weiter mit: [Vektoroperationen](vector.md)**
