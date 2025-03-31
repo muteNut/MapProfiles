@@ -16,6 +16,6 @@
 
 ### 6.3 Export
 
-[Zurück](./README.md)
+[Zurück](./join.md)
 
-[Nächster Abschnitt](./tips.md)
+**Weiter mit: [Datenverwaltung: Tipps](./tips.md)**
