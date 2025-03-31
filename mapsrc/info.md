@@ -11,4 +11,4 @@ erstellt mit [Vector Tile Style Editor](https://www.arcgis.com/apps/vtseditor/en
 * [Regionale Gliederung in Bezirke](https://www.data.gv.at/katalog/de/dataset/stat_gliederung-osterreichs-in-politische-bezirke131e2)
 * [Stehende Gewässer](https://www.data.gv.at/katalog/de/dataset/gesamtgewssernetzstehendegewsser)
 * [Fließende Gewässer](https://www.data.gv.at/katalog/de/dataset/gesamtgewssernetzfliessgewsserrouten)
-* [Straßen](mapsrc/strassen.geojson)
+* [Straßen](../mapsrc/strassen.geojson)
