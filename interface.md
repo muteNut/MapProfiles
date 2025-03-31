@@ -7,5 +7,6 @@ Anschließend lädt das Programminterface. Es ist per Default in drei Abschnitte
 
 ![Screenshot von ArcGIS Pro 3.4.2](./img/arcgis_ui.jpg)
 
-[Zurück](./readme.md)
+[Zurück](./README.md)
+
 [Nächster Abschnitt](./add_content.md)
