@@ -16,4 +16,4 @@
 
 Einige relevante Datenquellen sind [hier](./res/info.md) aufgelistet bzw. wird ein aufbereitetes [Straßennetz](./res/strassen.geojson) von Openstreetmap zur Verfügung gestellt.
 
-[Zurück](./README.md)
+[Zurück](./layout.md)
