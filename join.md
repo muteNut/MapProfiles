@@ -14,11 +14,11 @@ Um einen solchen Join zu erstellen, wird das Dialogfenster durch Rechtsklick auf
 
 ### 5.2 Join Field
 
-*Join Field* lässt sich über die Suchleiste aufrufen und verändert die Attributtabelle unmittelbar. Vorteil dieser Methode ist, dass die *Transfer Fields* ausgewählt werden können. Das heißt, dass nur die gewählten Spalten an die Attributtabelle angehängt werden. Die Funktionsweise deckt sich mit [Add Join](#51-add-join)
+*Join Field* lässt sich über die Suchleiste aufrufen und verändert die Attributtabelle unmittelbar. Vorteil dieser Methode ist, dass die *Transfer Fields* ausgewählt werden können. Das heißt, dass nur die gewählten Spalten an die Attributtabelle angehängt werden. Die Funktionsweise deckt sich mit [Add Join](#51-add-join).
 
 ### 5.3 Spatial Join
 
-### 5.4 Daten filtern (Definition Query)
+Der *Spatial Join* ist eine Sonderform der Verknüpfungen, da die Verbindung hier nicht über Attribute, sondern über die Lage geschieht. Während die Funktion sehr nützlich sein kann, ist sie hier nicht relevant. Bei Interesse liefert die [Dokumentation](https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/add-spatial-join.htm) von ArcGIS mehr Informationen.
 
 [Zurück](./attr.md)
 
