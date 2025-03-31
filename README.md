@@ -1,5 +1,5 @@
 # ArcGIS 101 &ndash; MRA
-## unvollständig || work in progress!
+## unvollständig || work in progress! || offen: 6 layout, 7 tipps
 Eine rudimentäre Einführung in ArcGIS, um einfache Karten mit Basemap sowie thematische Karten zu erstellen.
 
 Abschnitte:
