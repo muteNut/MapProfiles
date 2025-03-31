@@ -22,6 +22,7 @@ Es empfiehlt sich, externe Daten in einem Verzeichnis zu speichern, das einen ku
 C:\Users\...\Documents\GIS\
 ```
 Anschließend müssen wir ArcGIS mitteilen, dass dieser neue Ordner im Projekt eingebunden werden soll. Dazu fügen wir eine **Folder Connection** hinzu:
+
 ![Screenshot von "Add Folder Connection"](./img/addd_folder.jpg)
 
 Alle Dateien, die in diesem Ordner gespeichert sind, können direkt vom Catalog mittels Drag&Drop in die Map geschoben werden. Es ist empfehlenswert, zur besseren Übersicht je Datensatz einen Unterordner anzulegen (aber nicht notwendig). Falls die Dateien im Catalog nicht sichbar sind, muss ein **Refresh** durchgeführt werden: Rechtsklick auf **Folders** &ndash; **Refresh**.
@@ -32,14 +33,23 @@ Nachdem ein Layer der Map hinzugefügt wurde, kann die Darstellung angepasst wer
 
 ### 2.3 Hinzufügen einer Basemap
 
-Eine Basemap soll nicht vom hauptsächlichen Karteninhalt ablenken. Daher bevorzuge ich persönlich eine stumme Karte. In QGIS kann eine solche bspw. mit Plugins konfiguriert werden (z.B. *MapTiler*), in ArcGIS erfolgt die Konfiguration mit dem [Vector Tile Style Editor](https://www.arcgis.com/apps/vtseditor). Weil die TU Wien es nicht für notwendig hält, die dort erstellten Styles auch speichern zu können, muss die Datei exportiert und auf einem Webserver (in diesem Fall: Github) hochgeladen werden. Sie kann anschließend in ArcGIS importiert werden:
+Eine Basemap soll nicht vom hauptsächlichen Karteninhalt ablenken. Daher bevorzuge ich persönlich eine stumme Karte. In QGIS kann eine solche bspw. mit Plugins konfiguriert werden (z.B. *MapTiler*), in ArcGIS erfolgt die Konfiguration mit dem [Vector Tile Style Editor](https://developers.arcgis.com/vector-tile-style-editor/). Weil die TU Wien es nicht für notwendig hält, die dort erstellten Styles auch speichern zu können, muss die Datei exportiert und auf einem Webserver (in diesem Fall: Github) hochgeladen werden. Sie kann anschließend in ArcGIS importiert werden:
+
 ![Screenshot von "Add Data from Path"](./img/add_frompath.jpg)
+
+Der Pfad lautet:
+
+``` https://raw.githubusercontent.com/muteNut/MapProfiles/refs/heads/main/res/WorldTopo_Unabeled.json ```
 
 ### 2.4 Hinzufügen von Hillshade
 
-Besonders in Gebieten, die von Gebirgen geprägt sind, kann ein Hillshade die Karte aufwerten. Dazu bietet das [BEV](https://www.bev.gv.at/) feinkörnige Geländemodelle zum [Download](https://data.bev.gv.at/geonetwork/srv/ger/catalog.search#/search?isTemplate=n&resourceTemporalDateRange=%7B%22range%22:%7B%22resourceTemporalDateRange%22:%7B%22gte%22:null,%22lte%22:null,%22relation%22:%22intersects%22%7D%7D%7D&sortBy=creationDateForResource&sortOrder=desc&from=1&to=100&any=ALS%20DTM%20H%C3%B6henraster%201m) an. Für dieses Projekt kann ein vereinfachter Layer [hier](http://nc.dazzr.space/DTM_OOe.zip) heruntergeladen werden. Diese Ressource ist zeitlich begrenzt verfügbar! Gleich wie andere Daten wird das Archiv im üblichen Datenverzeichnis entpackt und kann in ArcGIS importiert werden. Die Symbology könnte folgenderweise aussehen und die Basemap überlagern:
+Besonders in Gebieten, die von Gebirgen geprägt sind, kann ein Hillshade die Karte aufwerten. Dazu bietet das [BEV](https://www.bev.gv.at/) feinkörnige Geländemodelle zum [Download](https://data.bev.gv.at/geonetwork/srv/ger/catalog.search#/search?isTemplate=n&resourceTemporalDateRange=%7B%22range%22:%7B%22resourceTemporalDateRange%22:%7B%22gte%22:null,%22lte%22:null,%22relation%22:%22intersects%22%7D%7D%7D&sortBy=creationDateForResource&sortOrder=desc&from=1&to=100&any=ALS%20DTM%20H%C3%B6henraster%201m) an. Gleich wie andere Daten wird das Archiv im üblichen Datenverzeichnis entpackt und kann in ArcGIS importiert werden. Die Symbology könnte folgenderweise aussehen und die Basemap überlagern: 
+
 ![[Screenshot von Raster Symbology]](./img/raster_sym1.jpg)
+
 ![[Screenshot von Raster Symbology]](./img/raster_sym2.jpg)
+
+Für dieses Projekt kann ein vereinfachter Layer [hier](http://fff.fff.fff/DTM_OOe.zip) heruntergeladen werden. **Achtung**: Diese Ressource ist zeitlich begrenzt verfügbar! 
 
 ### 2.4 Exkurs: Projektionen
 
