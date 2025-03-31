@@ -14,7 +14,7 @@ Um einen solchen Join zu erstellen, wird das Dialogfenster durch Rechtsklick auf
 
 ### 5.2 Join Field
 
-*Join Field* lässt sich über die Suchleiste aufrufen und verändert die Attributtabelle unmittelbar. Vorteil dieser Methode ist, dass die *Transfer Fields* ausgewählt werden können. Das heißt, dass nur die gewählten Spalten an die Attributtabelle angehängt werden. Die Funktionsweise deckt sich mit [Add Join](join.md/51-add-join)
+*Join Field* lässt sich über die Suchleiste aufrufen und verändert die Attributtabelle unmittelbar. Vorteil dieser Methode ist, dass die *Transfer Fields* ausgewählt werden können. Das heißt, dass nur die gewählten Spalten an die Attributtabelle angehängt werden. Die Funktionsweise deckt sich mit [Add Join](#51-add-join)
 
 ### 5.3 Spatial Join
 
