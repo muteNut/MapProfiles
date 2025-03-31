@@ -32,7 +32,7 @@ Nachdem ein Layer der Map hinzugefügt wurde, kann die Darstellung angepasst wer
 
 ### 2.3 Hinzufügen einer Basemap
 
-Eine Basemap soll nicht vom hauptsächlichen Karteninhalt ablenken. Daher bevorzuge ich persönlich eine stumme Karte. In QGIS kann eine solche bspw. mit Plugins konfiguriert werden (z.B. *MapTiler*), in ArcGIS erfolgt die Konfiguration mit dem [Vector Tile Style Editor](https://www.arcgis.com/apps/vtseditor/en/#/styles). Weil die TU Wien es nicht für notwendig hält, die dort erstellten Styles auch speichern zu können, muss die Datei exportiert und auf einem Webserver (in diesem Fall: Github) hochgeladen werden. Sie kann anschließend in ArcGIS importiert werden:
+Eine Basemap soll nicht vom hauptsächlichen Karteninhalt ablenken. Daher bevorzuge ich persönlich eine stumme Karte. In QGIS kann eine solche bspw. mit Plugins konfiguriert werden (z.B. *MapTiler*), in ArcGIS erfolgt die Konfiguration mit dem [Vector Tile Style Editor](https://www.arcgis.com/apps/vtseditor). Weil die TU Wien es nicht für notwendig hält, die dort erstellten Styles auch speichern zu können, muss die Datei exportiert und auf einem Webserver (in diesem Fall: Github) hochgeladen werden. Sie kann anschließend in ArcGIS importiert werden:
 ![Screenshot von "Add Data from Path"](./img/add_frompath.jpg)
 
 ### 2.4 Hinzufügen von Hillshade
