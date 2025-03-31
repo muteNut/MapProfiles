@@ -17,6 +17,34 @@ Alle Dateien, die in diesem Ordner gespeichert sind, können direkt vom Catalog 
 
 Nachdem ein Layer der Map hinzugefügt wurde, kann die Darstellung angepasst werden. Das geschieht über einen Rechtsklick auf den Layer im **ToC** &ndash; **Symbology**.
 
+Neben der gleichen Darstellung für alle Features eines Layers können die einzelnen Objekte auch anhand ihrer Ausprägung dargestellt werden. Soll bspw. die Bevölkerungsdichte dargestellt werden, dann das über *Graduated Colors* geschehen:
+
+<img src="./img/sym1.jpg" alt="Screenshot von Symbology" width=500>
+
+Die Beschriftung der Labels kann gleich wie die jeweiligen Grenzen manuell geändert werden, die Darstellung der Zahlen kann darüberhinaus in den *Advanced symbology options* angepasst werden (farblich markiert, oben)
+
+#### Tipps zu Farbflächenkarten
+
+<details>
+  <summary>1. Keine Absolutwerte</summary>
+  Weil die Ausprägung eines Attributs häufig mit dessen Größe korrelliert, werden große Objekte dadurch noch stärker hervorgehoben. Stattdessen sollte die Ausprägung stets relativ, bspw. zur Fläche, dargestellt werden! Eine Ausnahme bilden Rasterzellen, die stets die gleiche Fläche aufweisen. Daher können hier auch guten Gewissens Absolutwerte dargestellt werden.
+</details>
+
+<details>
+  <summary>2. Klassengröße</summary>
+  Es ist wenig informativ, wenn es Klassen gibt, die zB nur ein einziges Objekt enthalten, gleichzeitig aber eine andere Klasse den Großteil aller Objekte enthält. So lässt sich nicht ablesen, wie sich die Objekte eines Layers voneinander unterscheiden! Daher ist es meistens praktisch, als Ausgangspunkt die Quantile zu nutzen und ggf. die Grenzen anschließend anzupassen. Dadurch weisen alle Klassen möglichst gleich viele Objekte auf.
+</details>
+
+<details>
+  <summary>3. Klassenanzahl</summary>
+  Je mehr Klassen ein Layer enthält, umso feiner müssen die farblichen Abstufungen sein. Ab einer gewissen Anzahl an Klassen lässt sich zunehmend schwerer erkennen, welcher Klasse ein Objekt angehört. Daher wird häufig empfohlen, zwischen 4 &ndash; 6 Klassen zu bilden.
+</details>
+
+<details>
+  <summary>4. Farbskala</summary>
+  Es kann sinnvoll sein, eine divergierende Farbskala zu nutzen. Mehr Input findet sich <a href="https://www.datawrapper.de/blog/diverging-vs-sequential-color-scales">hier</a>
+</details>
+
 ### 2.3 Hinzufügen einer Basemap
 
 Eine Basemap soll nicht vom hauptsächlichen Karteninhalt ablenken. Daher bevorzuge ich persönlich eine stumme Karte. In QGIS kann eine solche bspw. mit Plugins konfiguriert werden (z.B. *MapTiler*), in ArcGIS erfolgt die Konfiguration mit dem [Vector Tile Style Editor](https://developers.arcgis.com/vector-tile-style-editor/). Weil die TU Wien es nicht für notwendig hält, die dort erstellten Styles auch speichern zu können, muss die Datei exportiert und auf einem Webserver (in diesem Fall: Github) hochgeladen werden. Sie kann anschließend in ArcGIS importiert werden:
