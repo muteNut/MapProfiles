@@ -2,7 +2,7 @@
 
 ### 2.1 Vorbereitung
 
-Es empfiehlt sich, externe Daten in einem Verzeichnis zu speichern, das einen kurzen Pfad hat. Wir legen daher einen neuen Ordner an, in dem alle Daten landen, wir später importieren wollen:
+Es empfiehlt sich, externe Daten in einem Verzeichnis zu speichern, das einen kurzen Pfad hat. Wir legen daher einen neuen Ordner an, in dem alle Daten landen, die wir später importieren wollen:
 
 ```
 C:\Users\...\Documents\GIS\
