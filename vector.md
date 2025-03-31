@@ -8,6 +8,6 @@ Ein kurzer Überblick über die in diesem Kurs wichtigsten Vektoroperationen
 
 ### 3.3 Dissolve
 
-[Zurück](./README.md)
+[Zurück](./add_content.md)
 
-[Nächster Abschnitt](./attr.md)
+**Weiter mit: [Attribute Table](./attr.md)**
