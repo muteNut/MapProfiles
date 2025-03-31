@@ -66,4 +66,5 @@ Einige Farben gelten als *Standard* und sollten daher bevorzugt nur für die jew
 bild von buch einfügen!
 ```
 [Zurück](./README.md)
+
 [Nächster Abschnitt](vector.md)
