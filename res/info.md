@@ -3,7 +3,7 @@ JSON files for ArcGIS vector tiles
 erstellt mit [Vector Tile Style Editor](https://developers.arcgis.com/vector-tile-style-editor/).
 
 * [Unlabeled topgraphical map](https://raw.githubusercontent.com/muteNut/MapProfiles/refs/heads/main/res/WorldTopo_Unabeled.json)
-* DTM OOe 10m median cells merged (src: BEV) [download here](http://fff.fff.fff/DTM_OOe.zip)
+* DTM OOe 10m median cells merged (src: BEV) [download here](http://nc.dazzr.space/DTM_OOe.zip)
 
 # Andere Kartendaten
 * [Verwaltungsgrenzen 1:250 000](https://www.data.gv.at/katalog/de/dataset/vgd-stichtagsdaten-1-250-000) für Übersichtskarte evtl.
