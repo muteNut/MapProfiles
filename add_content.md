@@ -59,9 +59,9 @@ Der Pfad lautet:
 
 Besonders in Gebieten, die von Gebirgen geprägt sind, kann ein Hillshade die Karte aufwerten. Dazu bietet das [BEV](https://www.bev.gv.at/) feinkörnige Geländemodelle zum [Download](https://data.bev.gv.at/geonetwork/srv/ger/catalog.search#/search?isTemplate=n&resourceTemporalDateRange=%7B%22range%22:%7B%22resourceTemporalDateRange%22:%7B%22gte%22:null,%22lte%22:null,%22relation%22:%22intersects%22%7D%7D%7D&sortBy=creationDateForResource&sortOrder=desc&from=1&to=100&any=ALS%20DTM%20H%C3%B6henraster%201m) an. Gleich wie andere Daten wird das Archiv im üblichen Datenverzeichnis entpackt und kann in ArcGIS importiert werden. Die Symbology könnte folgenderweise aussehen und die Basemap überlagern: 
 
-![[Screenshot von Raster Symbology]](./img/raster_sym1.jpg)
+![Screenshot von Raster Symbology](./img/raster_sym1.jpg)
 
-![[Screenshot von Raster Symbology]](./img/raster_sym2.jpg)
+![Screenshot von Raster Symbology](./img/raster_sym2.jpg)
 
 Für dieses Projekt kann ein vereinfachter Layer [hier](http://nc.dazzr.space/DTM_OOe.zip) heruntergeladen werden. **Achtung**: Diese Ressource ist zeitlich begrenzt verfügbar! 
 
@@ -97,7 +97,7 @@ bild von buch einfügen!
 ### 2.8 Exkurs: Straßendarstellung
 Falls Straßen dargestellt werden sollen, sieht die Standardeinstellung nicht gerade sehr hübsch aus. Sinnvoller ist es, hier eine kategorisierte Darstellung zu wählen (*unique Values*), aber dann taucht das nächste Problem auf: die Straßen weisen eine Vielzahl an Segmenten auf!
 
-<img src="./img/streets.jpg" alt="Screenshot von Strassen inkl. Symbology" width=500>
+![Screenshot von Strassen inkl. Symbology](./img/streets.jpg)
 
 Dieses Problem wird gelöst, wenn man in *Symbol layer drawing* (farblich markiert) den Slider *Enable symbol layer drawing* aktiviert. Die Zeile *`<all other values>`* kann entfernt werden, falls Features, die keines der vergebenen Attribute aufweisen, nicht dargestellt werden sollen.
 
