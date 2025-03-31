@@ -9,4 +9,4 @@ Anschließend lädt das Programminterface. Es ist per Default in drei Abschnitte
 
 [Zurück](./README.md)
 
-[Nächster Abschnitt](./add_content.md)
+Weiter mit: **[Hinzufügen von Karteninhalten](./add_content.md)**
