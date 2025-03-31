@@ -6,6 +6,6 @@
 
 ### 4.3 Filtern (Definition Query)
 
-[Zurück](./README.md)
+[Zurück](./vector.md)
 
-[Nächster Abschnitt](join.md)
+**Weiter mit: [Daten verknüpfen (Joins)](join.md)**
