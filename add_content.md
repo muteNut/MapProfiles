@@ -63,7 +63,7 @@ Besonders in Gebieten, die von Gebirgen geprägt sind, kann ein Hillshade die Ka
 
 ![[Screenshot von Raster Symbology]](./img/raster_sym2.jpg)
 
-Für dieses Projekt kann ein vereinfachter Layer [hier](http://fff.fff.fff/DTM_OOe.zip) heruntergeladen werden. **Achtung**: Diese Ressource ist zeitlich begrenzt verfügbar! 
+Für dieses Projekt kann ein vereinfachter Layer [hier](http://nc.dazzr.space/DTM_OOe.zip) heruntergeladen werden. **Achtung**: Diese Ressource ist zeitlich begrenzt verfügbar! 
 
 ### 2.4 Exkurs: Projektionen
 
