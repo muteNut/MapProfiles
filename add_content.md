@@ -101,7 +101,7 @@ Falls Straßen dargestellt werden sollen, sieht die Standardeinstellung nicht ge
 
 ![Screenshot von Strassen inkl. Symbology](./img/streets.jpg)
 
-Dieses Problem wird gelöst, wenn man in *Symbol layer drawing* (farblich markiert) den Slider *Enable symbol layer drawing* aktiviert. Die Zeile *`<all other values>`* kann entfernt werden, falls Features, die keines der vergebenen Attribute aufweisen, nicht dargestellt werden sollen.
+Dieses Problem wird gelöst, wenn man in *Symbol layer drawing* (farblich markiert, aber **nicht** im Screenshot offen!) den Slider *Enable symbol layer drawing* aktiviert. Die Zeile *`<all other values>`* kann entfernt werden, falls Features, die keines der vergebenen Attribute aufweisen, nicht dargestellt werden sollen.
 
 [Zurück](./interface.md)
 
