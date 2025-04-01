@@ -27,7 +27,7 @@ Ein Massstab muss vorhanden sein und kann durch Klick auf *Scale Bar* eingefügt
 
 #### 6.2.3 Nordpfeil
 
-Obwohl üblicherweise alle Karten per Default genordet sind, sollte ein Nordpfeil eingefügt werden. Je nach Projektion weist dieser Pfeil eine leichte Abweichung auf, die angepasst bzw. korrigiert werden kann, wenn der **Type** auf **Map North** gesetzt wird.
+Obwohl üblicherweise alle Karten per Default genordet sind, sollte ein Nordpfeil eingefügt werden. Je nach Projektion weist dieser Pfeil eine geringfügige Rotation auf, die angepasst bzw. korrigiert werden kann, indem der **Type** auf **Map North** gesetzt wird.
 
 **Nicht notwendig, aber möglicherweise sinnvoll sind Elemente wie:**
 
