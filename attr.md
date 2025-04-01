@@ -42,6 +42,10 @@ Mit Klick auf *New definition query* kann ein neuer Filter erstellt werden:
 
 <img src="./img/dq2.jpg" alt="Screenshot von Definition Query" width="500">
 
+Ein ähnliches Ergebnis kann erzielt werden, wenn die Features eines Layers exportiert werden (*Rechtsklick auf Layer* &ndash; *Export Features*). Hier können Parameter gewählt werden, welche Features in einen neuen Layer exportiert werden sollen:
+
+<img src="./img/export_features.jpg" alt="Screenshot von Export Features" width=500>
+
 [Zurück](./vector.md)
 
 **Weiter mit: [Daten verknüpfen (Joins)](join.md)**
