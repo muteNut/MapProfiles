@@ -12,7 +12,7 @@ Wir erstellen zuerst ein neues Layout über **Inser** &ndash; **New Layout** &nd
 
 ### 6.2 Map Elements
 
-Eine Karte sollte stets ein paar Elemente aufweisen: dazu zählen:
+Eine Karte sollte stets ein paar Elemente aufweisen wie zum Beispiel:
 
 #### 6.2.1 Legende
 Das Legendenwerkzeug in ArcGIS kann etwas tricky sein. An dieser Stelle ist es am einfachsten, auf Erklärvideos zu verweisen:
