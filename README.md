@@ -10,5 +10,6 @@ Abschnitte:
 5. [Daten verknüpfen (Joins)](join.md)
 6. [Layout](layout.md)
 7. [Datenverwaltung: Tipps](tips.md)
+8. [Datenaustausch mit Tabellenkalkulationsprogrammen](xls.md)
 
 **Weiter mit: [Programminterface](./interface.md)**
