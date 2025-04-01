@@ -39,7 +39,7 @@ Ein Kartentitel ist üblicherweise ein Element, das auf keiner Karte fehlen soll
 
 Zur Orientierung kann eine Übersichtskarte eingefügt werden. Dazu wird ein neuer Map Frame eingefügt und die passende Map gewählt. Während der neu erstellte Map Frame aktiv ist, kann ein *Extent Indicator* eingefügt werden. Damit wird der in *Map Frame* abgebildete Bereich in *Map Frame 1* hervorgehoben. Die Darstellungsparameter können je nach Bedarf angepasst werden. Dieses Element ist zB für die Übersichtskarte empfehlenswert, kann bei den nachfolgenden thematischen Karten aber weggelassen werden.
 
-Dieses Element wird hier im Detail beschrieben:
+Eine detaillierte Beschreibung bietet dieses Video:
 
 [![Extent Indicators in ArcGIS Pro ](http://img.youtube.com/vi/CHe-AANSLYM/0.jpg)](https://www.youtube.com/watch?v=CHe-AANSLYM "Extent Indicators in ArcGIS Pro")
 
