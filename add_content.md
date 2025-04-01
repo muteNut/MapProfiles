@@ -89,10 +89,12 @@ In der Kartengestaltung gibt es viele kreative Darstellungsmöglichkeiten. Dabei
 
 ### 2.7 Exkurs: Farbwahl
 Eine gute Farbwahl erleichtert ebenfalls die Lesbarkeit der Karte. Neben den mitgelieferten Presets von ArcGIS können bspw. zur Darstellung von Farbverläufen auch Tools wie der [Colorbrewer](https://colorbrewer2.org/) benutzt werden.
-Einige Farben gelten als *Standard* und sollten daher bevorzugt nur für die jeweilige Kategorie gewählt werden:
-```
-bild von buch einfügen!
-```
+
+Einige Farben gelten als *Standard* und sollten daher bevorzugt nur für die jeweilige Objektart gewählt werden. Wenn zB Attributausprägungen *und* Wasserflächen in einer Karte abgebildet sind, ist es naheliegend, die Wasserflächen blau darzustellen und die übrigen Features in einem anderen Farbton:
+
+<img src="./img/book.jpg" alt="Foto aus GIS Cartography von Gretchen Peterson über Farbwahl" width=500>
+
+Im Buch *GIS Cartography* (ISBN: 978-1-4822-2067-4) von Gretchen Peterson finden sich noch weitere hilfreiche Tipps zur kartografischen Darstellung!
 
 ### 2.8 Exkurs: Straßendarstellung
 Falls Straßen dargestellt werden sollen, sieht die Standardeinstellung nicht gerade sehr hübsch aus. Sinnvoller ist es, hier eine kategorisierte Darstellung zu wählen (*unique Values*), aber dann taucht das nächste Problem auf: die Straßen weisen eine Vielzahl an Segmenten auf!
