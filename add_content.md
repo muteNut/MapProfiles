@@ -23,7 +23,8 @@ Der Pfad lautet:
 
 ```https://raw.githubusercontent.com/muteNut/MapProfiles/refs/heads/main/res/WorldTopo_Unabeled.json```
 
-**ACHTUNG: die Basemap sollte als erstes geladen werden &ndash; der Table of Contents soll davor kein Element enthalten. Anschließend werden weitere Layer hinzugefügt. In umgekehrter Reihenfolge tritt das Problem auf, dass die Kanten des neuen Layers nicht mit der Basemap zusammenpassen. Zuletzt kann die Projektion der Map korrekt (dem neuen Layer entsprechend) gesetzt werden:**
+#### 2.2.1 Hilfe, meine Karte ist sieht verschoben aus!
+Die Basemap sollte als erstes geladen werden &ndash; der Table of Contents soll davor kein Element enthalten. Anschließend werden weitere Layer hinzugefügt. In umgekehrter Reihenfolge tritt das Problem auf, dass die Kanten des neuen Layers nicht mit der Basemap zusammenpassen. Zuletzt kann die Projektion der Map korrekt (dem neuen Layer entsprechend) gesetzt werden:**
 
 
 
@@ -85,7 +86,7 @@ Da die ungefähr kugelförmige Oberfläche der Erde auf eine zweidimensionale Fl
 
 Eine vollständige Liste der in Österreich gängigen Projektionen findet sich [hier](https://www.bev.gv.at/dam/jcr:b3d3e774-4a00-4faa-b1c1-eee986e62007/EPSG_Austria_BEV.pdf), mehr Infos zu den Projektionen [hier](https://pro.arcgis.com/de/pro-app/3.3/help/mapping/properties/list-of-supported-map-projections.htm).
 
-Die Kartenlayer, die nicht zur festgelegten Projektion passen, werden im Hintergrund dynamisch reprojiziert. Es ist von Vorteil, die Layer mit **Project Layer** auf die gewählte Projektion zu transformieren. Wenn die Kanten nicht zur Basemap passen, dann den [Hinweis](#22-hinzuf%C3%BCgen-einer-basemap) oben beachten!
+Die Kartenlayer, die nicht zur festgelegten Projektion passen, werden im Hintergrund dynamisch reprojiziert. Es ist von Vorteil, die Layer mit **Project Layer** auf die gewählte Projektion zu transformieren. Wenn die Kanten nicht zur Basemap passen, dann den [Hinweis](#221-hilfe-meine-karte-ist-sieht-verschoben-aus) oben beachten!
 
 ### 2.6 Exkurs: Hierarchie
 In der Kartengestaltung gibt es viele kreative Darstellungsmöglichkeiten. Dabei sollte die Lesbarkeit jedoch nicht vergessen werden! Daher muss die Darstellungsfolge der einzelnen Layer sinnvoll angepasst werden. Ein Grundsatz ist dabei folgende Reihenfolge:
