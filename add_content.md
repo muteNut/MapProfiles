@@ -13,7 +13,25 @@ Anschließend müssen wir ArcGIS mitteilen, dass dieser neue Ordner im Projekt e
 
 Alle Dateien, die in diesem Ordner gespeichert sind, können direkt vom Catalog mittels Drag&Drop in die Map geschoben werden. Es ist empfehlenswert, zur besseren Übersicht je Datensatz einen Unterordner anzulegen (aber nicht notwendig). Falls die Dateien im Catalog nicht sichbar sind, muss ein **Refresh** durchgeführt werden: Rechtsklick auf **Folders** &ndash; **Refresh**.
 
-### 2.2 Hinzufügen & Symbology
+### 2.2 Hinzufügen einer Basemap
+
+Eine Basemap soll nicht vom hauptsächlichen Karteninhalt ablenken. Daher bevorzuge ich persönlich eine stumme Karte. In QGIS kann eine solche bspw. mit Plugins konfiguriert werden (z.B. *MapTiler*), in ArcGIS erfolgt die Konfiguration mit dem [Vector Tile Style Editor](https://developers.arcgis.com/vector-tile-style-editor/). Weil die TU Wien es nicht für notwendig hält, die dort erstellten Styles auch speichern zu können, muss die Datei exportiert und auf einem Webserver (in diesem Fall: Github) hochgeladen werden. Sie kann anschließend in ArcGIS importiert werden:
+
+![Screenshot von "Add Data from Path"](./img/add_frompath.jpg)
+
+Der Pfad lautet:
+
+```https://raw.githubusercontent.com/muteNut/MapProfiles/refs/heads/main/res/WorldTopo_Unabeled.json```
+
+**ACHTUNG: die Basemap sollte als erstes geladen werden &ndash; der Table of Contents soll davor kein Element enthalten. Anschließend werden weitere Layer hinzugefügt. In umgekehrter Reihenfolge tritt das Problem auf, dass die Kanten des neuen Layers nicht mit der Basemap zusammenpassen. Zuletzt kann die Projektion der Map korrekt (dem neuen Layer entsprechend) gesetzt werden:**
+
+
+
+https://github.com/user-attachments/assets/62b6b31b-2e88-4800-8504-e431e237f150
+
+
+
+### 2.3 Hinzufügen & Symbology
 
 Nachdem ein Layer der Map hinzugefügt wurde, kann die Darstellung angepasst werden. Das geschieht über einen Rechtsklick auf den Layer im **ToC** &ndash; **Symbology**.
 
@@ -45,16 +63,6 @@ Die Beschriftung der Labels kann gleich wie die jeweiligen Grenzen manuell geän
   Es kann sinnvoll sein, eine divergierende Farbskala zu nutzen. Mehr Input findet sich <a href="https://www.datawrapper.de/blog/diverging-vs-sequential-color-scales">hier</a>
 </details>
 
-### 2.3 Hinzufügen einer Basemap
-
-Eine Basemap soll nicht vom hauptsächlichen Karteninhalt ablenken. Daher bevorzuge ich persönlich eine stumme Karte. In QGIS kann eine solche bspw. mit Plugins konfiguriert werden (z.B. *MapTiler*), in ArcGIS erfolgt die Konfiguration mit dem [Vector Tile Style Editor](https://developers.arcgis.com/vector-tile-style-editor/). Weil die TU Wien es nicht für notwendig hält, die dort erstellten Styles auch speichern zu können, muss die Datei exportiert und auf einem Webserver (in diesem Fall: Github) hochgeladen werden. Sie kann anschließend in ArcGIS importiert werden:
-
-![Screenshot von "Add Data from Path"](./img/add_frompath.jpg)
-
-Der Pfad lautet:
-
-``` https://raw.githubusercontent.com/muteNut/MapProfiles/refs/heads/main/res/WorldTopo_Unabeled.json ```
-
 ### 2.4 Hinzufügen von Hillshade
 
 Besonders in Gebieten, die von Gebirgen geprägt sind, kann ein Hillshade die Karte aufwerten. Dazu bietet das [BEV](https://www.bev.gv.at/) feinkörnige Geländemodelle zum [Download](https://data.bev.gv.at/geonetwork/srv/ger/catalog.search#/search?isTemplate=n&resourceTemporalDateRange=%7B%22range%22:%7B%22resourceTemporalDateRange%22:%7B%22gte%22:null,%22lte%22:null,%22relation%22:%22intersects%22%7D%7D%7D&sortBy=creationDateForResource&sortOrder=desc&from=1&to=100&any=ALS%20DTM%20H%C3%B6henraster%201m) an. Gleich wie andere Daten wird das Archiv im üblichen Datenverzeichnis entpackt und kann in ArcGIS importiert werden. Die Symbology könnte folgenderweise aussehen und die Basemap überlagern: 
@@ -77,7 +85,7 @@ Da die ungefähr kugelförmige Oberfläche der Erde auf eine zweidimensionale Fl
 
 Eine vollständige Liste der in Österreich gängigen Projektionen findet sich [hier](https://www.bev.gv.at/dam/jcr:b3d3e774-4a00-4faa-b1c1-eee986e62007/EPSG_Austria_BEV.pdf), mehr Infos zu den Projektionen [hier](https://pro.arcgis.com/de/pro-app/3.3/help/mapping/properties/list-of-supported-map-projections.htm).
 
-Die Kartenlayer, die nicht zur festgelegtne Projektion passen, werden im Hintergrund dynamisch reprojiziert. Es ist von Vorteil, die Layer mit **Project Layer** auf die gewählte Projektion zu transformieren.
+Die Kartenlayer, die nicht zur festgelegten Projektion passen, werden im Hintergrund dynamisch reprojiziert. Es ist von Vorteil, die Layer mit **Project Layer** auf die gewählte Projektion zu transformieren. Wenn die Kanten nicht zur Basemap passen, dann den [Hinweis](#22-hinzuf%C3%BCgen-einer-basemap) oben beachten!
 
 ### 2.6 Exkurs: Hierarchie
 In der Kartengestaltung gibt es viele kreative Darstellungsmöglichkeiten. Dabei sollte die Lesbarkeit jedoch nicht vergessen werden! Daher muss die Darstellungsfolge der einzelnen Layer sinnvoll angepasst werden. Ein Grundsatz ist dabei folgende Reihenfolge:
