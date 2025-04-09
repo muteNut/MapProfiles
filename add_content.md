@@ -30,9 +30,12 @@ Die Basemap sollte als erstes geladen werden &ndash; der Table of Contents soll 
 
 https://github.com/user-attachments/assets/62b6b31b-2e88-4800-8504-e431e237f150
 
+
 Alternativ kann eine genauere Transformation gewählt werden:
 
 ![Screenshot von "Transform"](./img/transformation.jpg)
+
+Die gewählte Transformation MGI to ETRS89(5) wird auch vom BEV [vorgeschlagen](https://www.bev.gv.at/dam/jcr:b3d3e774-4a00-4faa-b1c1-eee986e62007/EPSG_Austria_BEV.pdf).
 
 ### 2.3 Hinzufügen & Symbology
 
