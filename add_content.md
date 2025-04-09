@@ -24,13 +24,15 @@ Der Pfad lautet:
 ```https://raw.githubusercontent.com/muteNut/MapProfiles/refs/heads/main/res/WorldTopo_Unabeled.json```
 
 #### 2.2.1 Hilfe, meine Karte ist sieht verschoben aus!
-Die Basemap sollte als erstes geladen werden &ndash; der Table of Contents soll davor kein Element enthalten. Anschließend werden weitere Layer hinzugefügt. In umgekehrter Reihenfolge tritt das Problem auf, dass die Kanten des neuen Layers nicht mit der Basemap zusammenpassen. Zuletzt kann die Projektion der Map korrekt (dem neuen Layer entsprechend) gesetzt werden:**
+Die Basemap sollte als erstes geladen werden &ndash; der Table of Contents soll davor kein Element enthalten. Anschließend werden weitere Layer hinzugefügt. In umgekehrter Reihenfolge tritt das Problem auf, dass die Kanten des neuen Layers nicht mit der Basemap zusammenpassen. Zuletzt kann die Projektion der Map korrekt (dem neuen Layer entsprechend) gesetzt werden:
 
 
 
 https://github.com/user-attachments/assets/62b6b31b-2e88-4800-8504-e431e237f150
 
+Alternativ kann eine genauere Transformation gewählt werden:
 
+![Screenshot von "Transform"](./img/transformation.jpg)
 
 ### 2.3 Hinzufügen & Symbology
 
