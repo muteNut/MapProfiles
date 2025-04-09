@@ -7,11 +7,11 @@ Es empfiehlt sich, externe Daten in einem Verzeichnis zu speichern, das einen ku
 ```
 C:\Users\...\Documents\GIS\
 ```
-Anschließend müssen wir ArcGIS mitteilen, dass dieser neue Ordner im Projekt eingebunden werden soll. Dazu fügen wir eine **Folder Connection** hinzu:
+Anschließend müssen wir ArcGIS mitteilen, dass dieser neue Ordner im Projekt eingebunden werden soll. Dazu fügen wir eine `Folder Connection` hinzu:
 
 ![Screenshot von "Add Folder Connection"](./img/addd_folder.jpg)
 
-Alle Dateien, die in diesem Ordner gespeichert sind, können direkt vom Catalog mittels Drag&Drop in die Map geschoben werden. Es ist empfehlenswert, zur besseren Übersicht je Datensatz einen Unterordner anzulegen (aber nicht notwendig). Falls die Dateien im Catalog nicht sichbar sind, muss ein **Refresh** durchgeführt werden: Rechtsklick auf **Folders** &ndash; **Refresh**.
+Alle Dateien, die in diesem Ordner gespeichert sind, können direkt vom Catalog mittels Drag&Drop in die Map geschoben werden. Es ist empfehlenswert, zur besseren Übersicht je Datensatz einen Unterordner anzulegen (aber nicht notwendig). Falls die Dateien im Catalog nicht sichbar sind, muss ein `Refresh` durchgeführt werden: Rechtsklick auf `Folders` &ndash; `Refresh`.
 
 ### 2.2 Hinzufügen einer Basemap
 
@@ -21,7 +21,7 @@ Eine Basemap soll nicht vom hauptsächlichen Karteninhalt ablenken. Daher bevorz
 
 Der Pfad lautet:
 
-```https://raw.githubusercontent.com/muteNut/MapProfiles/refs/heads/main/res/WorldTopo_Unabeled.json```
+`https://raw.githubusercontent.com/muteNut/MapProfiles/refs/heads/main/res/WorldTopo_Unabeled.json`
 
 #### 2.2.1 Hilfe, meine Karte ist sieht verschoben aus!
 Die Basemap sollte als erstes geladen werden &ndash; der Table of Contents soll davor kein Element enthalten. Anschließend werden weitere Layer hinzugefügt. In umgekehrter Reihenfolge tritt das Problem auf, dass die Kanten des neuen Layers nicht mit der Basemap zusammenpassen. Zuletzt kann die Projektion der Map korrekt (dem neuen Layer entsprechend) gesetzt werden:
@@ -33,13 +33,13 @@ https://github.com/user-attachments/assets/62b6b31b-2e88-4800-8504-e431e237f150
 
 Alternativ kann eine genauere Transformation gewählt werden:
 
-![Screenshot von "Transform"](./img/transformation.jpg)
+<img src="./img/transformation.jpg" alt="Screenshot von Transform" width=500>
 
-Die gewählte Transformation MGI to ETRS89(5) wird auch vom BEV [vorgeschlagen](https://www.bev.gv.at/dam/jcr:b3d3e774-4a00-4faa-b1c1-eee986e62007/EPSG_Austria_BEV.pdf).
+Die gewählte Transformation `MGI to ETRS89(5)` wird auch vom BEV [vorgeschlagen](https://www.bev.gv.at/dam/jcr:b3d3e774-4a00-4faa-b1c1-eee986e62007/EPSG_Austria_BEV.pdf).
 
 ### 2.3 Hinzufügen & Symbology
 
-Nachdem ein Layer der Map hinzugefügt wurde, kann die Darstellung angepasst werden. Das geschieht über einen Rechtsklick auf den Layer im **ToC** &ndash; **Symbology**.
+Nachdem ein Layer der Map hinzugefügt wurde, kann die Darstellung angepasst werden. Das geschieht über einen Rechtsklick auf den Layer im `ToC` &ndash; `Symbology`.
 
 Neben der gleichen Darstellung für alle Features eines Layers können die einzelnen Objekte auch anhand ihrer Ausprägung dargestellt werden. Soll bspw. die Bevölkerungsdichte dargestellt werden, dann das über *Graduated Colors* geschehen:
 
@@ -91,7 +91,7 @@ Da die ungefähr kugelförmige Oberfläche der Erde auf eine zweidimensionale Fl
 
 Eine vollständige Liste der in Österreich gängigen Projektionen findet sich [hier](https://www.bev.gv.at/dam/jcr:b3d3e774-4a00-4faa-b1c1-eee986e62007/EPSG_Austria_BEV.pdf), mehr Infos zu den Projektionen [hier](https://pro.arcgis.com/de/pro-app/3.3/help/mapping/properties/list-of-supported-map-projections.htm).
 
-Die Kartenlayer, die nicht zur festgelegten Projektion passen, werden im Hintergrund dynamisch reprojiziert. Es ist von Vorteil, die Layer mit **Project Layer** auf die gewählte Projektion zu transformieren. Wenn die Kanten nicht zur Basemap passen, dann den [Hinweis](#221-hilfe-meine-karte-ist-sieht-verschoben-aus) oben beachten!
+Die Kartenlayer, die nicht zur festgelegten Projektion passen, werden im Hintergrund dynamisch reprojiziert. Es ist von Vorteil, die Layer mit `Project Layer` auf die gewählte Projektion zu transformieren. Wenn die Kanten nicht zur Basemap passen, dann den [Hinweis](#221-hilfe-meine-karte-ist-sieht-verschoben-aus) oben beachten!
 
 ### 2.6 Exkurs: Hierarchie
 In der Kartengestaltung gibt es viele kreative Darstellungsmöglichkeiten. Dabei sollte die Lesbarkeit jedoch nicht vergessen werden! Daher muss die Darstellungsfolge der einzelnen Layer sinnvoll angepasst werden. Ein Grundsatz ist dabei folgende Reihenfolge:
