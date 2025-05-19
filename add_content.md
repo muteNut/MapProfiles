@@ -77,8 +77,6 @@ Besonders in Gebieten, die von Gebirgen geprägt sind, kann ein Hillshade die Ka
 
 ![Screenshot von Raster Symbology](./img/raster_sym2.jpg)
 
-Für dieses Projekt kann ein vereinfachter Layer [hier](http://nc.dazzr.space/DTM_OOe.zip) heruntergeladen werden. **Achtung**: Diese Ressource ist zeitlich begrenzt verfügbar! 
-
 ### 2.5 Exkurs: Projektionen
 
 Da die ungefähr kugelförmige Oberfläche der Erde auf eine zweidimensionale Fläche projiziert werden muss, kommt es zu Verzerrungen. Stark vereinfacht ausgedrückt, fallen diese Verzerrungen umso geringer aus, je besser die gewählte Projektion sich mit dem dargestellten Kartenausschnitt überlagert. Für dieses Projekt bietet sich daher eine Projektion an, die zu Österreich passt. Sie wird über einen Doppelklick auf **Map** für die gesamte Karte festgelegt.
